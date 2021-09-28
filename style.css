@@ -76,3 +76,7 @@ margin-left: auto;
     max-width: 300px;
     font-size: 18px;
 }
+
+.xp-flex{
+    display: flex;
+}
