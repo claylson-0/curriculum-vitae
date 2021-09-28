@@ -1,0 +1,78 @@
+:root{
+    --cinza-1:#3d4548;
+    --cinza-2:#65686b;
+    --cinza-3:#a3a7a9;
+    --cinza-4:#cbd4d7;
+    --azul-1:#004f92;
+    --azul-2:#00569d;
+    --azul-3:#3e77b6;
+    --azul-4:#90b1db;
+    --branco-1:#DCE0DD;
+    --branco-2:#EFEFEB;
+    --branco-3:#F5F5F5;
+    --branco-4:#FAFAFA;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: var(--cinza-1);
+}
+div{
+    display: block;
+}
+
+.bloco{
+    min-height: 100%;
+}
+
+.container{
+width: 90%;
+margin-right: auto;
+margin-left: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: var(--azul-1);
+    padding: 15px 10%;
+    align-items: center;
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+.list li{
+    margin-right: 5px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   margin: 0; 
+   margin-top: 10%;
+    
+}
+
+.imagem{
+    max-width: 300px;
+    height: 350px;
+}
+
+.descricao{
+    background-color: var(--branco-3);
+    padding: 20px 25px;
+    height: 350px;
+    max-width: 300px;
+    font-size: 18px;
+}
