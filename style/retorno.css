@@ -17,11 +17,12 @@ html, body {
 
 .bloco{
     min-height: 100%;
-    
     display: flex;
     justify-content: center;
-
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     
 }
 
@@ -35,3 +36,4 @@ html, body {
     text-align: center;
     color: #3d4548;
 }
+
